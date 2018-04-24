@@ -10,11 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "colors": "*",
     "cheerio": "^1.0.0-rc.2",
+    "colors": "*",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.16",
     "nodemon": "^1.17.2",
     "request": "^2.85.0",
     "request-promise": "^4.2.2"

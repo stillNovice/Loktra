@@ -1,0 +1,28 @@
+{
+  "name": "web_crawler",
+  "version": "1.0.0",
+  "description": "a simple web crawler",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js --exec babel-node"
+  },
+  "author": "stillNovice",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "colors": "*",
+    "cheerio": "^1.0.0-rc.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.17.2",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "morgan": "^1.9.0"
+  }
+}
